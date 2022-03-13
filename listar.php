@@ -12,7 +12,7 @@ if ($usuario == ''){
         <?php if(isset($printMsg) && $printMsg != ''): ?>
         <p id="msg"><?= $printMsg ?></p>
         <?php endif; ?>
-        <h1 id="main-title">Lista de Clientes 2</h1>
+        <h1 id="main-title">Lista de Clientes</h1>
         <?php if(count($clientes) > 0): ?>
             <table class="table" id="contacts-table">
                 <thead>
